@@ -1,0 +1,30 @@
+VerboseLevel:		2
+
+Gamma.Energy:		2000	#keV
+Gamma.Direction:	1
+#0: isotropic, 1: only hemispehre of hodoscope (need to take into account for efficiency), 2: specify theta phi
+Gamma.Direction.Theta:	0
+Gamma.Direction.Phi:	0
+
+Reference.Position:	1	#reference point for source position, x,y coordinates
+#0: the source is placed with reference to the center of array in the plate
+#1: the source is placed with reference to the TL corner of the plate
+
+Source.Position.X:	412.75	#mm
+Source.Position.Y:	184.15	#mm
+Source.Position.Z:	0	#mm
+#X: dispersive, Y non-dispersive
+
+
+##change these only if you really know what you are doing
+Plate.Height:	       	762	#mm
+Plate.Width:		368.3	#mm
+Plate.Thickness:	6.35	#mm
+Plate.Distance:		105.3	#mm
+Plate.Position.X:	412.75  #mm position of Top-Left corner with respect to the hodoscope center
+Plate.Position.Y:	184.15  #mm
+
+Crystal.Height:		82.5	#mm x direction, dispersive
+Crystal.Width:		82.5	#mm y direction, non-dispersive
+Crystal.Depth:		51	#mm z = beam dir
+
