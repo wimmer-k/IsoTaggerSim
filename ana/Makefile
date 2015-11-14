@@ -49,4 +49,4 @@ HodoEventDictionary.cc: HodoEvent.hh HodoEventLinkDef.h
 
 
 clean:
-	rm  -f HodoAna *.o 
+	rm  -f HodoAna *.o *Dictionary*
